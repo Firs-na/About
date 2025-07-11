@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web dengan Formatting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #DFC18A;
+        }
+
+        h1 {
+            color: rgb(192, 192, 192);
+            text-align: center;
+            text-decoration: underline;
+        }
+        
+        .name {
+            font-size: 18px;
+            color: rgb(192, 192, 192);
+            text-align: right;
+            
+        }
+
+        .date {
+            font-size: 12px;
+            color: rgb(192, 192, 192);
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #2E333F;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .content {
+            padding: 10px 20px;
+            line-height: 1.6;
+        }
+        .img {
+            height: 500px;
+            margin-left: 30%;
+        }
+        p {
+            color: rgb(192, 192, 192);
+        }
+
+        .content a {
+            color: #e62c39;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Monkey D Luffy</h1>
+
+        <img src="https://i.pinimg.com/736x/31/61/a0/3161a00b8833bbf5c77e0801722342cc.jpg" class="img">
+        
+
+        <div class="content">
+            <p>
+                <b>Monkey D Luffy</b>, commonly known as <b>"Straw Hat Luffy"</b> or simply <b>"Straw Hat"</b>, is the founder and captain of the increasingly infamous and powerful <a href="https://onepiece.fandom.com/wiki/Straw_Hat_Pirates">Straw Hat Pirates</a>. He pursues the legendary treasure of the late <a href="https://onepiece.fandom.com/wiki/Gol_D._Roger"> Gol D. Roger</a> in order to become the new <b>Pirate King</b> and reach a further, untold dream currently known to only his crew, family and closest friends He believes that being the Pirate King means having the most freedom in the world
+            </p>
+
+            <a href="https://onepiece.fandom.com/wiki/Monkey_D._Luffy" target="_blank">Click me for more about Monkey D Luffy</a>
+            <br></br>
+            <button onclick="alert('Tombol diklik!')">Klik Saya!</button>
+            <div class="date">Date now: {{ date }}</div> 
+            
+        </div>
+    </div> 
+   <footer
+    style="text-align: center; margin-top: 20px; color: #777">
+    &copy; Muh. Fhiqih Rafael Isnaiyanto. All rights reserved.
+</footer>
+    
+</body>
+</html>
